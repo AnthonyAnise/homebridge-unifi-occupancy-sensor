@@ -1,8 +1,8 @@
-# Homebridge UniFi Occupancy Sensor
+# Homebridge Edgemax Occupancy Sensor
 
-This Homebridge plugin will provide an occupancy sensor accessory to HomeKit based on the devices connected to WiFi access points managed by a [UniFi Controller](https://www.ubnt.com/download/unifi).
+This Homebridge plugin will provide an occupancy sensor accessory to HomeKit based on the devices connected to a Ubiquiti Edgemax Router.
 
-The plugin connects to the UniFi Controller event web socket to get instant notifications of connecting devices - which can then be used to trigger HomeKit actions like turning on the lights.
+The plugin connects to the Edgemax Router over ssh to get device status.
 
 ## Requirements
 
